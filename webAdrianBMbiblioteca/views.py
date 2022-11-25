@@ -18,3 +18,8 @@ def cliente_new(request):
     else:
         form = ClienteForm()
     return render(request,'cliente_edit.html',{'form':form})
+def cliente_delete (request, id_cliente):
+    cliente = Cliente.objects.get(pk = id_cliente)
+    cliente.delete()
+    clientes = Cliente.objects.all()
+    return render (request, "clientes_list.html", {"clientes": clientes})
