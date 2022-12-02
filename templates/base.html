@@ -12,12 +12,15 @@
 <body>
     <div class="page-header">
         <h2><a href="/">BookWorld</a></h2>
-        <a href="{% url 'cliente_new' %}" class="top-menu">
+        <a href="{% url 'nuevoCliente' %}" class="top-menu">
             <span class="glyphicon-plus">Alta Cliente</span>
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="{% url 'cliente_delete' %}" class="top-menu">
+        <a href="{#}" class="top-menu">
             <span class="glyphicon-minus">Baja Cliente</span>
+        </a>
+        <a href="{% url 'nuevoLibro' %}" class="top-menu">
+            <span class="glyphicon-plus">Alta Libro</span>
         </a>
     </div>
     <div>

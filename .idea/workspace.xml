@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a01ed7cf-7ced-4a2b-b384-0c01af0880b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/cliente_delete.html" afterDir="false" />
+    <list default="true" id="a01ed7cf-7ced-4a2b-b384-0c01af0880b9" name="Changes" comment="cambios">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/libro_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webAdrianBMbiblioteca/forms/AutorForm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webAdrianBMbiblioteca/forms/ClienteForm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webAdrianBMbiblioteca/forms/LibroForm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webAdrianBMbiblioteca/forms/PrestamoForm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webAdrianBMbiblioteca/forms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webAdrianBMbiblioteca/models/Autor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webAdrianBMbiblioteca/models/Cliente.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webAdrianBMbiblioteca/models/Libro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webAdrianBMbiblioteca/models/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cliente_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cliente_create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webAdrianBMbiblioteca/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webAdrianBMbiblioteca/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webAdrianBMbiblioteca/models.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webAdrianBMbiblioteca/static/css/misitio.css" beforeDir="false" afterPath="$PROJECT_DIR$/webAdrianBMbiblioteca/static/css/misitio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webAdrianBMbiblioteca/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webAdrianBMbiblioteca/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webAdrianBMbiblioteca/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webAdrianBMbiblioteca/views.py" afterDir="false" />
@@ -14,6 +31,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,16 +56,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/a19adrianbm/PycharmProjects/ProyectoWeb&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/a19adrianbm/PycharmProjects/barreiromartinez",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="djangoProject" type="Python.DjangoServer" factoryName="Django server">
       <module name="djangoProject" />
@@ -83,8 +109,19 @@
       <workItem from="1668771918560" duration="50000" />
       <workItem from="1668771977572" duration="2956000" />
       <workItem from="1669029115496" duration="29000" />
-      <workItem from="1669374717968" duration="1202000" />
+      <workItem from="1669374717968" duration="1222000" />
+      <workItem from="1669380230211" duration="662000" />
+      <workItem from="1669633697511" duration="35000" />
+      <workItem from="1669979231090" duration="5113000" />
     </task>
+    <task id="LOCAL-00001" summary="cambios">
+      <created>1669375933910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669375933910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cambios" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios" />
   </component>
 </project>
